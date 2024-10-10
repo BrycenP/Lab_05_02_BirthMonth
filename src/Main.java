@@ -5,7 +5,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int birthMonth = 0;
 
-        System.out.println("Please enter your birth month (1-12)");
+        System.out.print("Please enter your birth month (1-12)");
         birthMonth = in.nextInt();
         if (1 <= birthMonth && birthMonth <= 12)
         {
